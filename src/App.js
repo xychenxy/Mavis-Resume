@@ -46,8 +46,8 @@ export default class App extends Component{
           <Banner />
           <Nav isNavAnimation={isNavAnimation}/>
           <Profile/>
-          <Experiences/>
           <Projects/>
+          <Experiences/>
           <Abilities/>
           <Contact isBackToTop={isBackToTop}/>
         </>

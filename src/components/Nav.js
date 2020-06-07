@@ -50,7 +50,19 @@ export default class Nav extends Component{
                                     Profile
                                 </Link>
                             </li>
-
+                            <li className="nav-item">
+                                <Link
+                                    className="nav-link m-2 text-capitalize"
+                                    activeClass="nav-active"
+                                    to="projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration= {1000}
+                                >
+                                    Projects
+                                </Link>
+                            </li>
                             <li className="nav-item">
                                 <li className="nav-item">
                                     <Link
@@ -79,19 +91,7 @@ export default class Nav extends Component{
                                     Abilities
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <Link
-                                    className="nav-link m-2 text-capitalize"
-                                    activeClass="nav-active"
-                                    to="projects"
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-70}
-                                    duration= {1000}
-                                >
-                                    Projects
-                                </Link>
-                            </li>
+
                             <li className="nav-item">
                                 <Link
                                     className="nav-link m-2 text-capitalize"

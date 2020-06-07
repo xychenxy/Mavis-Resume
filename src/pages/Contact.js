@@ -12,14 +12,14 @@ export default class Contact extends Component{
                 <div className="container-fluid contact pt-5 mt-5" id='contact'>
                     <Title title='Contact' subtitle='“If I had asked people what they wanted, they would have said faster horses. ”- Henry Ford'/>
 
-                    <div className="row">
-                        <div className="col-10 col-md-6 mx-auto text-md-right">
-                            <span><i className="fas fa-at"></i></span>
+                    <div className="row text-white">
+                        <div className="col-10 col-md-6 mx-auto text-md-right contact-items">
+                            <span><i className="fas fa-at"></i> </span>
                             mavischen916@gmail.com
                         </div>
-                        <div className="col-10 col-md-6 mx-auto">
-                            <span><i className="fab fa-github"></i></span>
-                            mavischen916@gmail.com
+                        <div className="col-10 col-md-6 mx-auto contact-items">
+                            <span><i className="fab fa-github"></i> </span>
+                            https://github.com/xychenxy
                         </div>
                     </div>
                     <UnderLine/>
