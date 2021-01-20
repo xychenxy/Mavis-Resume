@@ -1,6 +1,5 @@
 import React from "react";
 import UnderLine from "./Underline";
-
 export default function Title({ title, subtitle }) {
     return (
         <>
